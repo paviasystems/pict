@@ -15,7 +15,7 @@ class PictTemplateProviderBreakpoint extends libPictTemplate
 
 	render(pTemplateHash)
 	{
-		let tmpHash = pHash.trim();
+		let tmpHash = pTemplateHash.trim();
 		let tmpError = new Error(`PICT Template Breakpoint: ${tmpHash}`);
 		this.log.trace(`PICT Template Breakpoint: ${tmpHash}`, tmpError.stack);
 		//throw tmpError;

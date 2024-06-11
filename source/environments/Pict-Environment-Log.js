@@ -61,7 +61,7 @@ class PictEnvironmentLog
 	 * Create an event log entry.
 	 *
 	 * @param {string} pAddress - The address of the event.
-	 * @param {string} pContent - The content of the event.
+	 * @param {string} [pContent] - The content of the event.
 	 */
 	createEventLogEntry(pAddress, pContent)
 	{
